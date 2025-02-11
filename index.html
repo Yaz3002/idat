@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Idat I Aprende sobre desarrollo web gratis con los mejores</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="body">
+  <header class="header">
+    <nav class="nav">
+      <div class="container flexbox flexbox--centered-spaced">
+        <a href="#" class="logo">
+          <img src="./assets/img/logo.svg" alt="Logo de Idat" width="24" height="40">
+        </a>
+        <ul class="list d-flex g-2">
+          <li>
+            <a href="#" class="interactive link">Escuela</a>
+          </li>
+          <li>
+            <a href="#" class="interactive link">Proyectos</a>
+          </li>
+        </ul>
+        <a href="#contact" class="interactive button button--primary">Inscríbete</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article class="hero">
+      <div class="container">
+        <div class="d-flex f-direction-column a-items-center g-4">
+          <h1 class="hero__title">Aprende <span class="c-primary">desarrollo web</span> gratis con los mejores</h1>
+          <p class="hero__paragraph">El mejor centro educativo del Perú, aprende todo en un solo lugar gratis e impulsa
+            tu futuro.</p>
+          <a href="#contact" class="button button--primary interactive interactive--lg">Empezar a aprender</a>
+        </div>
+    </article>
+    <section>
+      <div class="container">
+        <div>
+          <a href="#" class="card card--overlay link">
+            <div class="card__body">
+              <img src="https://www.in2code.de/fileadmin/_processed_/0/b/csm_code_javascript_49d002a67e.webp" alt="Desarrollo Frontend" width="426"
+                height="240" class="img img--background">
+              <ul class="list d-flex g-2">
+                <li class="badge badge--primary interactive interactive--sm">HTML</li>
+                <li class="badge badge--primary interactive interactive--sm">CSS</li>
+                <li class="badge badge--primary interactive interactive--sm">JS</li>
+                <li class="badge badge--primary interactive interactive--sm">React</li>
+              </ul>
+              <h3 class="title title--xs">Desarrollo Frontend</h3>
+              <p class="text text--sm">Aprende a construir aplicaciones web Frontend con las tecnologías más modernas y
+                demandadas del mercado.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div>
+        <h2>Inscríbete</h2>
+        <form>
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" placeholder="Ingresa tu nombre" required>
+          <label for="lastName">Apellido</label>
+          <input type="text" name="last-name" id="lastName" placeholder="Ingresa tu apellido" required>
+          <label for="phone">Celular</label>
+          <input type="tel" name="phone" id="phone" placeholder="Ingresa tu celular" maxlength="9" pattern="[0-9]{9}"
+            required>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Ingresa tu email" required>
+          <label for="DNI">DNI</label>
+          <input type="number" name="DNI" id="DNI" placeholder="Ingresa tu DNI" min="00000000" max="99999999">
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
