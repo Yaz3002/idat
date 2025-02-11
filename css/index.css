@@ -18,7 +18,15 @@
     }
 }
 
-
+/* main {
+  &>*:nth-child(odd) {
+    background-image: conic-gradient(from 90deg at -10% 100%, var(--primary-color) 90deg, var(--primary-background));
+  }
+ 
+  &>*:nth-child(even) {
+    background-image: conic-gradient(from -90deg at 190% 100%, var(--secondary-background), var(--primary-color) 90deg);
+  }
+} */
 
 .body {
   margin: 0;
@@ -51,6 +59,8 @@
 .hero {
   padding-block: calc(var(--size) * 32);
   text-align: center;
+  /*background-image: conic-gradient(from 90deg at -20% 100%, var(--primary-color) 20deg, var(--primary-background));*/
+  background-image: linear-gradient(120deg, var(--primary-color) -90%, var(--primary-background));
 }
 
 .hero__title {
